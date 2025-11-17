@@ -538,6 +538,132 @@ blockquote {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.phase-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.8rem;
+}
+
+.phase-card {
+  position: relative;
+  padding: 1.5rem 1.6rem 1.6rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(159, 186, 254, 0.5);
+  background: linear-gradient(150deg, rgba(127, 245, 255, 0.12), rgba(255, 110, 242, 0.08));
+  box-shadow: 0 25px 60px rgba(3, 7, 32, 0.55);
+  display: grid;
+  gap: 0.8rem;
+}
+
+.phase-card__badge {
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--brand-amber);
+}
+
+.phase-card__list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.4rem;
+}
+
+.spark-marquee {
+  position: relative;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 215, 168, 0.55);
+  padding: clamp(1.5rem, 4vw, 2.8rem);
+  background: linear-gradient(130deg, rgba(127, 245, 255, 0.2), rgba(255, 110, 242, 0.18));
+  box-shadow: 0 35px 65px rgba(2, 5, 20, 0.6);
+  overflow: hidden;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.spark-marquee__glow {
+  position: absolute;
+  inset: -20%;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), transparent 55%),
+              radial-gradient(circle at 80% 20%, rgba(255, 110, 242, 0.35), transparent 65%);
+  filter: blur(40px);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.spark-marquee__content,
+.spark-marquee__chips,
+.spark-points {
+  position: relative;
+  z-index: 1;
+}
+
+.spark-marquee__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  color: var(--brand-amber);
+  margin: 0 0 0.7rem;
+}
+
+.spark-marquee__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.spark-chip {
+  flex: 1 1 140px;
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(245, 248, 255, 0.5);
+  background: rgba(4, 6, 25, 0.45);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 35px rgba(3, 5, 20, 0.45);
+}
+
+.spark-chip small {
+  display: block;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  color: var(--muted-soft);
+  margin-bottom: 0.3rem;
+}
+
+.spark-chip strong {
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.spark-points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+  color: var(--text);
+}
+
+.spark-points li {
+  padding-left: 1.4rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.spark-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-electric);
+  box-shadow: 0 0 12px rgba(127, 245, 255, 0.8);
+}
+
 .checklist {
   list-style: none;
   padding: 0;
