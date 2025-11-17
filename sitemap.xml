@@ -2,72 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://finwin.space/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://finwin.space/community/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/leaderboard/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finwin.space/auth/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://finwin.space/daily-bonus/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/responsible-play/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>quarterly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://finwin.space/accessibility/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://finwin.space/community-guidelines/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://finwin.space/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://finwin.space/cookie-policy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://finwin.space/cookie-settings/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://finwin.space/data-rights/</loc>
+    <loc>https://finwin.space/accessibility/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://finwin.space/how-it-works/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/data-rights/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://finwin.space/privacy/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://finwin.space/profile/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://finwin.space/responsible-play/</loc>
-    <changefreq>quarterly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://finwin.space/terms/</loc>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/cookie-policy/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/cookie-settings/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://finwin.space/contact/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
