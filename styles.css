@@ -44,6 +44,21 @@ body {
   letter-spacing: 0.01em;
 }
 
+.disclaimer-bar {
+  background: #ff6f61;
+  color: #080214;
+  text-align: center;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(8, 2, 20, 0.35);
+}
+
+.disclaimer-bar span {
+  color: #080214;
+}
+
 body::before,
 body::after {
   content: "";
