@@ -805,6 +805,19 @@ blockquote {
   color: var(--muted);
 }
 
+.game-embed__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.game-embed__details {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--muted);
+}
+
 .checklist {
   list-style: none;
   padding: 0;

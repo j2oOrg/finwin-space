@@ -106,13 +106,22 @@
       <div class="shell">
         <p class="pill">Spela direkt</p>
         <h2>Rise of Orpheus i demoformat.</h2>
-        <p>Spela vår favorit bland mytologiska slots direkt på sidan i ett kontantfritt demoläge. Ingen nedladdning, ingen sidförflyttning&mdash;bara lugn orkestrering i samma stämning som resten av finwin.space.</p>
+        <p>Vi har lyft in hela spelupplevelsen från vårt Rise of Orpheus-exempel så du kan prova sloten direkt här på sidan utan nya flikar eller nedladdningar.</p>
         <div class="game-embed">
           <iframe
+            id="orpheus-frame"
             class="game-embed__frame"
             src="https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&amp;gid=riseoforpheus&amp;lang=en_GB&amp;practice=1&amp;channel=desktop&amp;demo=2"
             title="Rise of Orpheus demospel"
             loading="lazy"></iframe>
+          <div class="game-embed__details">
+            <strong>Rise of Orpheus</strong>
+            <p>Ett kontantfritt demo med mytologiskt tema. All progression stannar i browsern och spelet är alltid 18+.</p>
+          </div>
+          <div class="game-embed__controls">
+            <button class="btn btn--primary" type="button" onclick="document.getElementById('orpheus-frame').contentWindow.location.reload()">Starta om spelet</button>
+            <button class="btn btn--ghost" type="button" onclick="window.location.hash='#rooms'">Utforska fler rum</button>
+          </div>
           <p class="game-embed__note">Spelet körs i demoläge för underhållning och synkar inte mot konton eller vinster.</p>
         </div>
       </div>
